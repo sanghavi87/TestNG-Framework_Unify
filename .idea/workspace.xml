@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031fa5f-79de-4d22-ad9f-541396276638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FirstTestNG_Testcase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testNG_Homework_1/TestCase_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_abhis_IdeaProjects_TestNGFrameworkUnify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_abhis_IdeaProjects_TestNGFrameworkUnify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify",
+    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/AbhiTestNG_Learning",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -81,7 +77,6 @@
       <listeners>
         <listener class="org.testng.reporters.EmailableReporter" />
         <listener class="org.testng.reporters.FailedReporter" />
-        <listener class="org.testng.reporters.XMLReporter" />
         <listener class="org.testng.reporters.TestHTMLReporter" />
       </listeners>
       <method v="2">
