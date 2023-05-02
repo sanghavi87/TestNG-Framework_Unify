@@ -1,0 +1,32 @@
+package unifyClassExercises;
+
+import org.testng.annotations.Test;
+
+public class E_Priority {
+
+    @Test(priority = 1)
+    void firstTest()
+    {
+        System.out.println("Test Case 1");
+    }
+    @Test(priority = 2)
+    void secondTest()
+    {
+        System.out.println("Test Case 2");
+    }
+    @Test(priority = 3)
+    void thirdTest()
+    {
+        System.out.println("Test Case 3");
+    }
+    @Test(priority = 4)
+    void fourthTest()
+    {
+        System.out.println("Test Case 4");
+    }
+    @Test(priority = 5)
+    void fifthTest()
+    {
+        System.out.println("Test Case 5");
+    }
+}

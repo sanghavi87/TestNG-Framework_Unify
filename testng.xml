@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/src/main/java/testNG_Homework_1/TestCase_1.java">
+    <test verbose="2" preserve-order="true" name="C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify">
         <classes>
             <class name="testNG_Homework_1.TestCase_1">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="Register"/>
+                    <include name="login"/>
+                    <include name="logout"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="homePractice.FirstTestNG_Testcase">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="login"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="testNG_Homework_2.TestCase_1">
                 <methods>
                     <include name="openBrowser"/>
                     <include name="Register"/>

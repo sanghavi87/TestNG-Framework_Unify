@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031fa5f-79de-4d22-ad9f-541396276638" name="Changes" comment="amend">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTestNG_Testcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercices/FirstTestNG_Testcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/A_FirstTestNGTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/B_SecondTestNGTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/C_AnnotationsTestCase1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/D_AnnotationsTestCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/E_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/F_Disable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/G_DependancyTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/H_GroupingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/I_AssertionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/J_ParametersTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/K_DataProviderTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/L_CustomDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/parallelTesting/ParallelTesting1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/parallelTesting/ParallelTesting2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercices/FirstTestNG_Testcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homePractice/FirstTestNG_Testcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_abhis_IdeaProjects_TestNGFrameworkUnify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_abhis_IdeaProjects_TestNGFrameworkUnify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +68,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify",
+    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/src/main/java/unifyClassExercises/parallelTesting",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abhis\IdeaProjects\TestNGFrameworkUnify\src\main\java\unifyClassExercises\parallelTesting" />
+      <recent name="C:\Users\abhis\IdeaProjects\TestNGFrameworkUnify\src\main\java\unifyClassExercises" />
+      <recent name="C:\Users\abhis\IdeaProjects\TestNGFrameworkUnify\src\test\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testNG_Homework_1" />
     </key>
@@ -75,9 +98,8 @@
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
         <listener class="org.testng.reporters.FailedReporter" />
-        <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.EmailableReporter" />
       </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,7 +108,7 @@
     <configuration name="FirstTestNG_Testcase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="unifyClassExercices.FirstTestNG_Testcase" />
+      <option name="MAIN_CLASS_NAME" value="homePractice.FirstTestNG_Testcase" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,7 +119,7 @@
     <configuration name="FirstTestNG_Testcase.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="unifyClassExercices.FirstTestNG_Testcase" />
+      <option name="MAIN_CLASS_NAME" value="homePractice.FirstTestNG_Testcase" />
       <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -109,7 +131,7 @@
     <configuration name="FirstTestNG_Testcase.openBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="unifyClassExercices.FirstTestNG_Testcase" />
+      <option name="MAIN_CLASS_NAME" value="homePractice.FirstTestNG_Testcase" />
       <option name="METHOD_NAME" value="openBrowser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -182,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682616137780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="amend">
+      <created>1682616393796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682616393796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="amend">
+      <created>1682616418804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682616418804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
