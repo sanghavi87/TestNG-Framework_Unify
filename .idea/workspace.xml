@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031fa5f-79de-4d22-ad9f-541396276638" name="Changes" comment="amend">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testNG_Homework_2/TestNG_Homework_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homePractice/Annotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/F_Disable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/F_Disable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/G_DependancyTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/G_DependancyTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/H_GroupingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/H_GroupingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/I_AssertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/I_AssertionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/J_ParametersTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/J_ParametersTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unifyClassExercises/K_DataProviderTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unifyClassExercises/K_DataProviderTestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -53,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -66,7 +73,7 @@
       <recent name="testNG_Homework_1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/testng.xml">
+  <component name="RunManager" selected="TestNG.K_DataProviderTestCase">
     <configuration name="C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <shortenClasspath name="NONE" />
@@ -89,16 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Homework_2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="G_DependancyTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNG_Homework_2.*" />
+          <option name="PATTERN" value="unifyClassExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNG_Homework_2" />
-      <option name="MAIN_CLASS_NAME" value="testNG_Homework_2.TestNG_Homework_2" />
+      <option name="PACKAGE_NAME" value="unifyClassExercises" />
+      <option name="MAIN_CLASS_NAME" value="unifyClassExercises.G_DependancyTestCase" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -106,17 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Homework_2.AddtoCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="I_AssertionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNG_Homework_2.*" />
+          <option name="PATTERN" value="unifyClassExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNG_Homework_2" />
-      <option name="MAIN_CLASS_NAME" value="testNG_Homework_2.TestNG_Homework_2" />
-      <option name="METHOD_NAME" value="AddtoCart" />
+      <option name="PACKAGE_NAME" value="unifyClassExercises" />
+      <option name="MAIN_CLASS_NAME" value="unifyClassExercises.I_AssertionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I_AssertionTest.validation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGFrameworkUnify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unifyClassExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unifyClassExercises" />
+      <option name="MAIN_CLASS_NAME" value="unifyClassExercises.I_AssertionTest" />
+      <option name="METHOD_NAME" value="validation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,36 +148,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Homework_2.ValidateHomepage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="K_DataProviderTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGFrameworkUnify" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNG_Homework_2.*" />
+          <option name="PATTERN" value="unifyClassExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNG_Homework_2" />
-      <option name="MAIN_CLASS_NAME" value="testNG_Homework_2.TestNG_Homework_2" />
-      <option name="METHOD_NAME" value="ValidateHomepage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNG_Homework_2.shoppingCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGFrameworkUnify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNG_Homework_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNG_Homework_2" />
-      <option name="MAIN_CLASS_NAME" value="testNG_Homework_2.TestNG_Homework_2" />
-      <option name="METHOD_NAME" value="shoppingCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="unifyClassExercises" />
+      <option name="MAIN_CLASS_NAME" value="unifyClassExercises.K_DataProviderTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestNG_Homework_2" />
-      <item itemvalue="TestNG.TestNG_Homework_2.AddtoCart" />
-      <item itemvalue="TestNG.TestNG_Homework_2.ValidateHomepage" />
-      <item itemvalue="TestNG.TestNG_Homework_2.shoppingCart" />
+      <item itemvalue="TestNG.I_AssertionTest.validation" />
+      <item itemvalue="TestNG.K_DataProviderTestCase" />
+      <item itemvalue="TestNG.G_DependancyTestCase" />
+      <item itemvalue="TestNG.I_AssertionTest" />
       <item itemvalue="TestNG.C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.K_DataProviderTestCase" />
         <item itemvalue="TestNG.C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/testng.xml" />
-        <item itemvalue="TestNG.TestNG_Homework_2" />
-        <item itemvalue="TestNG.TestNG_Homework_2.ValidateHomepage" />
-        <item itemvalue="TestNG.TestNG_Homework_2.shoppingCart" />
-        <item itemvalue="TestNG.TestNG_Homework_2.AddtoCart" />
+        <item itemvalue="TestNG.I_AssertionTest" />
+        <item itemvalue="TestNG.I_AssertionTest.validation" />
+        <item itemvalue="TestNG.G_DependancyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683069985082</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="amend">
+      <created>1683150799669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683150799669</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

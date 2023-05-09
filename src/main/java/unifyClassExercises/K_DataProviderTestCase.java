@@ -8,9 +8,12 @@ import org.testng.annotations.Test;
 
 public class K_DataProviderTestCase {
     WebDriver driver;
+
+
     @Test(dataProvider = "loginTest",dataProviderClass = L_CustomDataProvider.class)
 //    @Test(dataProvider = "loginTest")
-    public void loginTest(String Email,String Pwd){
+    public void loginTest(String Email,String Pwd)
+    {
         System.out.println(Email+ " " + Pwd);
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/src/main/java/testNG_Homework_2">
+          name="C:/Users/abhis/IdeaProjects/TestNGFrameworkUnify/src/main/java/unifyClassExercises/J_ParametersTestCase.java">
+        
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="Url" value="https://demo.nopcommerce.com/"></parameter>
         <classes>
-            <class name="testNG_Homework_2.TestNG_Homework_2">
+            <class name="unifyClassExercises.J_ParametersTestCase">
             </class>
         </classes>
     </test>

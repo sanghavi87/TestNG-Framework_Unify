@@ -20,19 +20,30 @@ public class I_AssertionTest {
         driver.manage().window().maximize();
         driver.get("https://demo.nopcommerce.com/");
     }
-    @Test(priority = 1)
-    void webLogo(){
+
+
+   @Test(priority = 1)
+    void webLogo()
+    {
         WebElement Logo = driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/div[1]/a/img"));
-        Assert.assertTrue(Logo.isDisplayed(),"Logo is not present");
-//        Assert.assertFalse(Logo.isDisplayed(),"Logo is Present");
+       Assert.assertTrue(Logo.isDisplayed(),"Logo is not present");
+      //Assert.assertFalse(Logo.isDisplayed(),"Logo is Present");
     }
+
+
+
+
     @Test(priority = 2)
-    void homePageTitle(){
+    void homePageTitle()
+    {
         String Title = driver.getTitle();
         Assert.assertEquals(Title,"nopCommerce demo store","Page title is incorrect");
+
+
     }
     @AfterClass
-    void closeBrowser(){
+    void closeBrowser()
+    {
         driver.quit();
     }
 

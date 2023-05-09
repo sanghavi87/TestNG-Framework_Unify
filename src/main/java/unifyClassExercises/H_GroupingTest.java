@@ -4,7 +4,8 @@ import org.testng.annotations.Test;
 
 public class H_GroupingTest {
     @Test(groups = {"Regression"})
-    void firstTest() {
+    void firstTest()
+    {
         System.out.println("Test Case 1");
     }
     @Test(groups = {"Sanity"})
@@ -39,6 +40,7 @@ public class H_GroupingTest {
     void test9(){
         System.out.println("Test Case 9");
     }
+
 //    @Test(priority = 1, groups = {"Smoke"})
     @Test(groups = {"Smoke"})
     void test10(){

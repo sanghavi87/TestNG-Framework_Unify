@@ -12,25 +12,38 @@ public class G_DependancyTestCase {
     Buy Product
      */
     @Test(priority = 1)
-    void logIn(){
+    void logIn()
+    {
         System.out.println("User logged in successfully");
         Assert.fail();
     }
+
+
     @Test(dependsOnMethods = {"logIn"},alwaysRun = true)
-//    @Test(dependsOnMethods = "logIn")
-    void findProduct(){
+   //@Test(dependsOnMethods = "logIn")
+    void findProduct()
+    {
         System.out.println("User able to find product");
     }
+
+
     @Test(dependsOnMethods = "findProduct")
-    void selectProduct(){
+    void selectProduct()
+    {
         System.out.println("User able to select product");
     }
+
+
     @Test(dependsOnMethods = "selectProduct")
-    void addProduct(){
+    void addProduct()
+    {
         System.out.println("User able to add product");
     }
+
+
     @Test(dependsOnMethods = "addProduct")
-    void buyProduct(){
+    void buyProduct()
+    {
         System.out.println("User able to buy product");
     }
 }
